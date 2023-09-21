@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy ASP.Net Core app to Azure Web App - MediBots
-
+#trigger only if manually run, not on every push (commit) on master branch, hence commented lines
 on:
  # push:
   #  branches:
