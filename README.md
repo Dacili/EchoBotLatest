@@ -36,16 +36,18 @@ Services on Azure that you're gonna need are:
 
 ### Deploy bot code to App Service
 I was using 2 different approaches to deploy my bot code:
-**1st approach:** Published my app to Github, then connected app service with that repo on Github. And enabled continuous deployment.
-   ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/761cb005-aa61-4bd7-8b63-8eb3dbf6936b)   
+**1st approach:** Published my app to Github, then connected app service with that repo on Github. And enabled continuous deployment.  
+<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/761cb005-aa61-4bd7-8b63-8eb3dbf6936b" width="600">  
+
 In GitHub actions, we can check deployments:
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/9517860c-028b-4733-983a-3c51b3b60e89)  
 
 **2nd approach:** Publish directly from Visual Studio. Right-click on the project, and click on Publish.  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/01852335-7caa-4ef5-b33e-553ee81ffc22)  
+<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/01852335-7caa-4ef5-b33e-553ee81ffc22" width="500">  
 Choose Azure -> Azure app service -> log in Azure -> you will see your services, choose the app service you want -> publish.  
 Once you did this process you will generate Deploy.pubxml file, so next time you can just hit the Publish button.  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/c5204012-aee9-458e-a6a4-2883a6f7176a)
+<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/c5204012-aee9-458e-a6a4-2883a6f7176a" width="600">  
+
 
 
 ### Connect App Service with Azure Bot
@@ -56,9 +58,11 @@ Click on Manage password:
 Create a new password, you will be able to copy the VALUE just upon the creation (if you leave the page, you will not be able anymore to copy it).  
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8d7181c8-fb3e-47b0-a9fc-5b1d68aee8bc)  
 In bot code, in appsettings.json, fill that values:  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/05b5dd25-4e87-42eb-a0cf-e0c70afcee3a)  
+<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/05b5dd25-4e87-42eb-a0cf-e0c70afcee3a" width="400"> 
+ 
 but in appsettings.Development.json make them empty, because the emulator will fail with 401 errors:  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8c1cd0b7-0c23-401a-b156-ebfe1de0cfe0)  
+<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/8c1cd0b7-0c23-401a-b156-ebfe1de0cfe0" width="400"> 
+
 Deploy your bot code one more time.  
 
 
