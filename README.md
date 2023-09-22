@@ -22,7 +22,7 @@ https://github.com/Dacili/EchoBotLatest/assets/37112852/4febd794-2886-4307-a92d-
 ### Required services
 Services on Azure that you're gonna need are:  
 
-<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/24b85c93-8030-481b-95c5-fa7ab5c869a8" width="600">
+<img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/24b85c93-8030-481b-95c5-fa7ab5c869a8" width="600">   <br/>
 1. App Service - for hosting the code of your chatbot (web app type)
    I chose the free one.
 3. Azure Bot -
