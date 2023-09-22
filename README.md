@@ -58,10 +58,13 @@ Create a new password, you will be able to copy the VALUE just upon the creation
 In bot code, in appsettings.json, fill that values:  
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/05b5dd25-4e87-42eb-a0cf-e0c70afcee3a)  
 but in appsettings.Development.json make them empty, because the emulator will fail with 401 errors:  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8c1cd0b7-0c23-401a-b156-ebfe1de0cfe0)
-
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8c1cd0b7-0c23-401a-b156-ebfe1de0cfe0)  
+Deploy your bot code one more time.  
 
 
 ### Test bot in Web chat (Azure)
+If you did everything properly, you should be able to run your bot in Test in Web Chat:  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/16b1435c-0753-44fd-9ee8-6f3897681961)   
+
 ## Embedding into Web app
 
