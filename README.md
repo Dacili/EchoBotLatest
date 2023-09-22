@@ -67,4 +67,14 @@ If you did everything properly, you should be able to run your bot in Test in We
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/16b1435c-0753-44fd-9ee8-6f3897681961)   
 
 ## Embedding into Web app
+We're gonna embed it directly in web app. You should use this approach if it's for testing, development.  
+(If it's production, then we would have to gather a token with a secret key, and then get embedded code with that token.)  
+In Azure Bot service, click on Channels -> Web Chat:
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/7ffbc229-d7a5-4c65-8839-549768d8d9cc)  
+Then click on Default Site:  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/2607558e-a09c-4631-9a18-9bc9886a7d30)  
+In html page, copy this embedded code, and replace *YOUR_SECRET_HERE* with real secret key, and that's it!  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/a3fa9729-e03c-48be-809c-21f3578b22f3)
+
+
 
