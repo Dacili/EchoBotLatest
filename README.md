@@ -49,6 +49,19 @@ Once you did this process you will generate Deploy.pubxml file, so next time you
 
 
 ### Connect App Service with Azure Bot
+In Bot service -> configuration, enter the url of app service, and add sufix /api/messages:  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8503b40e-bfb9-4701-ac50-8e6356bcb11a)  
+Save somewhere the Microsoft App ID.  
+Click on Manage password:  
+Create a new password, you will be able to copy the VALUE just upon the creation (if you leave the page, you will not be able anymore to copy it).  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8d7181c8-fb3e-47b0-a9fc-5b1d68aee8bc)  
+In bot code, in appsettings.json, fill that values:  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/05b5dd25-4e87-42eb-a0cf-e0c70afcee3a)  
+but in appsettings.Development.json make them empty, because the emulator will fail with 401 errors:  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/8c1cd0b7-0c23-401a-b156-ebfe1de0cfe0)
+
+
+
 ### Test bot in Web chat (Azure)
 ## Embedding into Web app
 
