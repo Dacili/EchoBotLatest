@@ -1,4 +1,4 @@
-# Create, deploy, and embed your chatbot
+# Create, deploy, and embed your chatbot 😎
 ## Echo Bot 
 
 Echo Bot is a simple chatbot that returns back everything the user entered in the chat.  
