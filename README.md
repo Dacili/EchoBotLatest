@@ -1,6 +1,7 @@
 # Echo Bot 
+## Create, deploy and embed your bot
 Echo Bot is a simple chatbot that returns back everything the user entered in the chat.  
-### How to generate template
+## Creation
 You need to install Visual Studio extension **Bot Framework** if not already:    
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/ee84e938-f952-443f-a677-3691c878f3e6)  
 
@@ -11,5 +12,7 @@ After you got template, you can customize it as you wish.
 In order to test Bot locally you need to install **Bot Framework Emulator**  
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/06fb1286-6c12-44c6-8dc4-a9ac8018d909)
 
+## Deployment to Azure
 
+## Embedding into Web app
 
