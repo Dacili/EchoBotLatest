@@ -35,6 +35,18 @@ Services on Azure that you're gonna need are:
    Note: If you need this for some real use cases, probably you will have to upgrade from free services to pay-on-demand.   
 
 ### Deploy bot code to App Service
+I was using 2 different approaches to deploy my bot code:
+**1st approach:** Published my app to Github, then connected app service with that repo on Github. And enabled continuous deployment.
+   ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/761cb005-aa61-4bd7-8b63-8eb3dbf6936b)   
+In GitHub actions, we can check deployments:
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/9517860c-028b-4733-983a-3c51b3b60e89)  
+
+**2nd approach:** Publish directly from Visual Studio. Right-click on the project, and click on Publish.  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/01852335-7caa-4ef5-b33e-553ee81ffc22)  
+Choose Azure -> Azure app service -> log in Azure -> you will see your services, choose the app service you want -> publish.  
+Once you did this process you will generate Deploy.pubxml file, so next time you can just hit the Publish button.  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/c5204012-aee9-458e-a6a4-2883a6f7176a)
+
 
 ### Connect App Service with Azure Bot
 ### Test bot in Web chat (Azure)
