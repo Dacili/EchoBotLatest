@@ -35,7 +35,7 @@ Services on Azure that you're gonna need are:
    Note: If you need this for some real use cases, probably you will have to upgrade from free services to pay-on-demand.   
 
 ### Deploy bot code to App Service
-I was using 2 different approaches to deploy my bot code:
+I was using 2 different approaches to deploy my bot code:  
 **1st approach:** Published my app to Github, then connected app service with that repo on Github. And enabled continuous deployment.  
 <img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/761cb005-aa61-4bd7-8b63-8eb3dbf6936b" width="600">  
 
