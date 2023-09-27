@@ -1,7 +1,8 @@
 # Create, deploy, and embed your chatbot 😎
 ## Echo Bot 
 
-Echo Bot is a simple chatbot that returns back everything the user entered in the chat.  
+Echo Bot is a simple chatbot that returns back everything the user entered in the chat.    
+*If you want to check default generated readme file, check this:* https://github.com/Dacili/EchoBotLatest/blob/master/README1.md 
 ## Creation
 You need to install Visual Studio extension **Bot Framework** if not already:    
 <img src="https://github.com/Dacili/EchoBotLatest/assets/37112852/ee84e938-f952-443f-a677-3691c878f3e6" width="800">
