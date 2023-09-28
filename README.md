@@ -79,7 +79,9 @@ In Azure Bot service, click on Channels -> Web Chat:
 Then click on Default Site:  
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/2607558e-a09c-4631-9a18-9bc9886a7d30)  
 In html page, copy this embedded code, and replace *YOUR_SECRET_HERE* with real secret key, and that's it!  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/a3fa9729-e03c-48be-809c-21f3578b22f3)
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/a3fa9729-e03c-48be-809c-21f3578b22f3)   
 
+You can even use it in teams, just click on Teams in Channels, and create one. And then open it via Teams:  
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/741d19e9-be7b-4937-98a9-361a1d1b65e0)
 
 
