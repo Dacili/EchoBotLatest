@@ -82,6 +82,7 @@ In html page, copy this embedded code, and replace *YOUR_SECRET_HERE* with real 
 ![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/a3fa9729-e03c-48be-809c-21f3578b22f3)   
 
 You can even use it in teams, just click on Teams in Channels, and create one. And then open it via Teams:  
-![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/741d19e9-be7b-4937-98a9-361a1d1b65e0)
+![image](https://github.com/Dacili/EchoBotLatest/assets/37112852/7b796ddb-da4e-4ca8-8f14-29608beaf62a)
+
 
 
